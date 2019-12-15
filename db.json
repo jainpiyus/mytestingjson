@@ -1,152 +1,142 @@
 {
-  "customers": [
-    {
-      "firstName": "Devendra",
-      "lastName": "jai",
-      "mobileNumber": "9090120340",
-      "mailId": "devendra.jain@gamil.com",
-      "createdDate": "Sat, 23 Nov 2019 15:53:41 GMT",
-      "addresses": [
-        {
-          "id": 1,
-          "icon": "home",
-          "title": "Home",
-          "address": "Life Republic, Tathawade, Pimpri-Chinchwad, Maharashtra 411033",
-          "default": true
-        },
-        {
-          "id": 2,
-          "icon": "room",
-          "title": "Other",
-          "address": "Life Republic, Tathawade, Pimpri-Chinchwad, Maharashtra 411033",
-          "default": false
-        }
-      ],
-      "active": true,
-      "id": 1
-    },
-  ],
-  "orders": [
-    {
-      "id": 101,
-      "totalAmount": 500,
-      "deliveryType": "Delivery",
-      "firstName": "Salman",
-      "lastName": "Khan",
-      "mobileNumber": "888808801",
-      "mailId": "salman@gmail.com",
-      "address": "Marunji Rd, Marunji Village, Hinjawadi",
-      "status": "Accepted",
-      "orderDate": "Wed, 20 Nov 2019 13:38:17 GMT",
-      "itemList": [
-        {
-          "id": 1,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTx13wydDLHKFLKu8CllRCRzSMoWVxxzRtfoFUc8UYEjR5zz9q2",
-          "name": "Veg Seekh Kebab",
-          "type": "veg",
-          "price": 150,
-          "containt": "Dal makhani + jeera rice + 3 phulkas/2 tandoori rotis",
-          "rating": 4,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPFkXENfFNE35-7jVQ9HkOoUtr309f16fk0DxY1XEwyG--D5EE",
-          "name": "Paneer Tikka",
-          "type": "veg",
-          "price": 250,
-          "containt": "Full",
-          "rating": 4,
-          "quantity": 1
-        }
-      ]
-    },
-  ],
-  "categories": [
-    {
-      "name": "North Indian",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq3P8oU_yaNSVQjvS7SREOly_UbcwXnqeztQF7ys3uaikpA59V",
-      "parentCategoryId": -1,
-      "active": true,
-      "id": 1
-    },
-    {
-      "name": "South Indian",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfT3F2cdFdI1qIndBSjbyV0cz1l5IF-nJv_WcaAPPqIFhuIID-",
-      "parentCategoryId": -1,
-      "active": null,
-      "id": 2
-    },
-    {
-      "name": "Chinese Food",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn-m9PiiAyoz0PBGRwOVaFw2MF-o6JYnwnk2zX2UdtUb_81U17",
-      "parentCategoryId": -1,
-      "active": null,
-      "id": 3
-    },
-    {
-      "name": "Main Course",
-      "imageLink": "https://www.mathrubhumi.com/polopoly_fs/1.1549102.1480658124!/image/image.jpg_gen/derivatives/landscape_928/image.jpg",
-      "parentCategoryId": 1,
-      "active": null,
-      "id": 4
-    },
-    {
-      "name": "Starter",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSW9DbjF0rIMDAHRKBsYmMK7OudV7w9PmMrBAeYhomvETV3LLm2",
-      "parentCategoryId": -1,
-      "active": true,
-      "id": 5
-    },
-    {
-      "name": "Dal",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq8yxWWLY8WmVqaaVGbAQCSdEiX1Go2w1iJSx3QRV7uJlobvCn",
-      "parentCategoryId": 1,
-      "active": true,
-      "id": 7
-    }
-  ],
-  "products": [
-    {
-      "name": "Chole Bhature",
-      "sortDescription": "Chole Bhature with raiya",
-      "description": "Chole Bhature",
-      "price": 456,
-      "createdDate": "Sun, 24 Nov 2019 11:39:37 GMT",
-      "active": true,
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSb_uytx5PuQv8QJSD071GUcfE3m4pP7XZuIWisDqJZXrQmtUTn",
-      "type": "veg",
-      "categoryId": 4,
-      "id": 1
-    },
-    {
-      "name": "Aloo Paratha",
-      "sortDescription": "with curd and pickle",
-      "description": "with curd and pickle",
-      "price": 40,
-      "createdDate": "Sun, 24 Nov 2019 11:47:00 GMT",
-      "active": false,
-      "imageLink": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/6-march/Nutty_Aloo_Stuffed_Palak_Paratha_Recipe-1.jpg",
-      "type": "veg",
-      "categoryId": 4,
-      "id": 2
-    },
-  ],
-  "delivery-boy": [
-    {
-      "name": "Piyush Jain",
-      "mobileNumber": "09039907701",
-      "mailId": "pjyahoomail@gmail.com",
-      "city": "JOURA",
-      "dob": null,
-      "address": "Sadar Bazar",
-      "gender": "male",
-      "indentityNumber": "BAMPJ8735Q",
-      "licenceNumber": "3445323827489283475",
-      "licenceExpiryDate": "2019-12-31",
-      "createdDate": "Wed, 27 Nov 2019 13:38:36 GMT",
-      "status": "Online",
-      "id": 1
-    }
-  ]
+	"customers": [{
+		"firstName": "Devendra",
+		"lastName": "jai",
+		"mobileNumber": "9090120340",
+		"mailId": "devendra.jain@gamil.com",
+		"createdDate": "Sat, 23 Nov 2019 15:53:41 GMT",
+		"addresses": [{
+				"id": 1,
+				"icon": "home",
+				"title": "Home",
+				"address": "Life Republic, Tathawade, Pimpri-Chinchwad, Maharashtra 411033",
+				"default": true
+			},
+			{
+				"id": 2,
+				"icon": "room",
+				"title": "Other",
+				"address": "Life Republic, Tathawade, Pimpri-Chinchwad, Maharashtra 411033",
+				"default": false
+			}
+		],
+		"active": true,
+		"id": 1
+	}],
+	"orders": [{
+		"id": 101,
+		"totalAmount": 500,
+		"deliveryType": "Delivery",
+		"firstName": "Salman",
+		"lastName": "Khan",
+		"mobileNumber": "888808801",
+		"mailId": "salman@gmail.com",
+		"address": "Marunji Rd, Marunji Village, Hinjawadi",
+		"status": "Accepted",
+		"orderDate": "Wed, 20 Nov 2019 13:38:17 GMT",
+		"itemList": [{
+				"id": 1,
+				"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTx13wydDLHKFLKu8CllRCRzSMoWVxxzRtfoFUc8UYEjR5zz9q2",
+				"name": "Veg Seekh Kebab",
+				"type": "veg",
+				"price": 150,
+				"containt": "Dal makhani + jeera rice + 3 phulkas/2 tandoori rotis",
+				"rating": 4,
+				"quantity": 1
+			},
+			{
+				"id": 2,
+				"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPFkXENfFNE35-7jVQ9HkOoUtr309f16fk0DxY1XEwyG--D5EE",
+				"name": "Paneer Tikka",
+				"type": "veg",
+				"price": 250,
+				"containt": "Full",
+				"rating": 4,
+				"quantity": 1
+			}
+		]
+	}],
+	"categories": [{
+			"name": "North Indian",
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq3P8oU_yaNSVQjvS7SREOly_UbcwXnqeztQF7ys3uaikpA59V",
+			"parentCategoryId": -1,
+			"active": true,
+			"id": 1
+		},
+		{
+			"name": "South Indian",
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfT3F2cdFdI1qIndBSjbyV0cz1l5IF-nJv_WcaAPPqIFhuIID-",
+			"parentCategoryId": -1,
+			"active": null,
+			"id": 2
+		},
+		{
+			"name": "Chinese Food",
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn-m9PiiAyoz0PBGRwOVaFw2MF-o6JYnwnk2zX2UdtUb_81U17",
+			"parentCategoryId": -1,
+			"active": null,
+			"id": 3
+		},
+		{
+			"name": "Main Course",
+			"imageLink": "https://www.mathrubhumi.com/polopoly_fs/1.1549102.1480658124!/image/image.jpg_gen/derivatives/landscape_928/image.jpg",
+			"parentCategoryId": 1,
+			"active": null,
+			"id": 4
+		},
+		{
+			"name": "Starter",
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSW9DbjF0rIMDAHRKBsYmMK7OudV7w9PmMrBAeYhomvETV3LLm2",
+			"parentCategoryId": -1,
+			"active": true,
+			"id": 5
+		},
+		{
+			"name": "Dal",
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq8yxWWLY8WmVqaaVGbAQCSdEiX1Go2w1iJSx3QRV7uJlobvCn",
+			"parentCategoryId": 1,
+			"active": true,
+			"id": 7
+		}
+	],
+	"products": [{
+			"name": "Chole Bhature",
+			"sortDescription": "Chole Bhature with raiya",
+			"description": "Chole Bhature",
+			"price": 456,
+			"createdDate": "Sun, 24 Nov 2019 11:39:37 GMT",
+			"active": true,
+			"imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSb_uytx5PuQv8QJSD071GUcfE3m4pP7XZuIWisDqJZXrQmtUTn",
+			"type": "veg",
+			"categoryId": 4,
+			"id": 1
+		},
+		{
+			"name": "Aloo Paratha",
+			"sortDescription": "with curd and pickle",
+			"description": "with curd and pickle",
+			"price": 40,
+			"createdDate": "Sun, 24 Nov 2019 11:47:00 GMT",
+			"active": false,
+			"imageLink": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/6-march/Nutty_Aloo_Stuffed_Palak_Paratha_Recipe-1.jpg",
+			"type": "veg",
+			"categoryId": 4,
+			"id": 2
+		}
+	],
+	"delivery-boy": [{
+		"name": "Piyush Jain",
+		"mobileNumber": "09039907701",
+		"mailId": "pjyahoomail@gmail.com",
+		"city": "JOURA",
+		"dob": null,
+		"address": "Sadar Bazar",
+		"gender": "male",
+		"indentityNumber": "BAMPJ8735Q",
+		"licenceNumber": "3445323827489283475",
+		"licenceExpiryDate": "2019-12-31",
+		"createdDate": "Wed, 27 Nov 2019 13:38:36 GMT",
+		"status": "Online",
+		"id": 1
+	}]
 }
